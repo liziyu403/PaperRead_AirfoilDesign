@@ -6,7 +6,7 @@
 
 
 
-## 1. Generative Aerodynamic Design with Diffusion Probabilistic Models (Airbus)
+## 1. Generative Aerodynamic Design with Diffusion Probabilistic Models
 
 - **数据集**
   随机采样 Bernstein 多项式参数化翼型，并用 XFOIL 计算气动特性。
@@ -66,6 +66,6 @@
 - **边界表示**：64×64×3 张量：  
   - mask（二值，固体/流体）、  
   - 最近边界点相对位置 (Δx, Δy)。  
-- **维度**：边界参数高达 12288。  
+- **维度**：边界参数 12288。  
 - **设计目标**：最小化 (-Lift + Drag)，最大化升阻比 L/D。  
 
